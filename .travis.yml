@@ -1,5 +1,18 @@
+sudo: true
+language: node_js
+before_install:
+  - npm install -g brunch
+
+notifications:
+  email: false
+
+script:
+  - npm install
+  - npm run build
+
 deploy:
   provider: pages
+  local_dir: public
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
