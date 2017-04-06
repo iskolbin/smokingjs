@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/iskolbin/smokingjs.svg?branch=master)](https://travis-ci.org/iskolbin/smokingjs)
+
 # Quit smoking
 
 Simple breakout-like game using ES6 + Babel + Pixi4 + Howler2 + Brunch. Original
