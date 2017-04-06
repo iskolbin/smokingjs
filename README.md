@@ -1,6 +1,7 @@
 # Smoking JS
 
-Simple breakout-like game using ES6 + Babel + Pixi4 + Howler2.
+Simple breakout-like game using ES6 + Babel + Pixi4 + Howler2 + Brunch. Original
+idea taken from [here](http://www.hobbygamedev.com/adv/quit-smoking-game-effect-of-interaction-on-interpretation/).
 
 ## Build
 
