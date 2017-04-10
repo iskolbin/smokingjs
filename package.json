@@ -3,11 +3,11 @@
   "description": "Smoking breakout-like",
   "private": false,
   "author": "iskolbin",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "repository": "github.com/iskolbin/smokingjs",
   "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "start": "./node_modules/brunch/bin/brunch watch --server",
+    "build": "./node_modules/brunch/bin/brunch build --production"
   },
   "dependencies": {},
   "devDependencies": {
